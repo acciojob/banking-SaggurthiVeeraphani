@@ -7,7 +7,7 @@ public class StudentAccount extends BankAccount{
     public StudentAccount(String name, double balance, String  institutionName) {
         //minimum balance is 0 by default
         super(name,balance);
-        institutionName = this.institutionName;
+        this.institutionName = institutionName;
         super.setMinBalance(0);
 
 
